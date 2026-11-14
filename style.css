@@ -415,3 +415,9 @@ footer {
   transition: transform 0.2s;
 }
 .to-top:hover { transform: translateY(-4px); }
+
+/* smaller photo frame */
+.banner-grid { grid-template-columns: minmax(200px, 300px) 1fr; }
+.art-box { padding: 0.9rem 0.9rem 0; }
+.art-box img { height: 200px; }
+.art-box figcaption { font-size: 0.9rem; }

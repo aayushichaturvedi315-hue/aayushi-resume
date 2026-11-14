@@ -421,3 +421,9 @@ footer {
 .art-box { padding: 0.9rem 0.9rem 0; }
 .art-box img { height: 200px; }
 .art-box figcaption { font-size: 0.9rem; }
+/* frame hugs its content, same space on every side */
+.art-box {
+  align-self: center;
+  padding: 1rem;
+}
+.art-box figcaption { padding-bottom: 0; }

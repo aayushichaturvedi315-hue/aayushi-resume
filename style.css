@@ -310,7 +310,7 @@ a:focus-visible { outline: 3px solid var(--mustard); outline-offset: 3px; }
 }
 
 .contact-me, .languages, .hobbies {
-  background: var(--blue);
+  background: #4169E1;
   border: 1.5px solid rgba(244, 235, 214, 0.6);
   padding: 2rem 2.2rem;
 }

@@ -416,14 +416,8 @@ footer {
 }
 .to-top:hover { transform: translateY(-4px); }
 
-/* smaller photo frame */
-.banner-grid { grid-template-columns: minmax(200px, 300px) 1fr; }
-.art-box { padding: 0.9rem 0.9rem 0; }
+/* smaller photo frame, even spacing */
+.banner-grid { grid-template-columns: minmax(200px, 300px) 1fr; align-items: center; }
+.art-box { align-self: center; padding: 1rem; }
 .art-box img { height: 200px; }
-.art-box figcaption { font-size: 0.9rem; }
-/* frame hugs its content, same space on every side */
-.art-box {
-  align-self: center;
-  padding: 1rem;
-}
-.art-box figcaption { padding-bottom: 0; }
+.art-box figcaption { font-size: 0.9rem; padding-bottom: 0; }

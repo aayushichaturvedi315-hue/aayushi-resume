@@ -415,7 +415,7 @@ footer {
   transition: transform 0.2s;
 }
 .to-top:hover { transform: translateY(-4px); }
-
+}
 /* smaller photo frame, even spacing */
 .banner-grid { grid-template-columns: minmax(200px, 300px) 1fr; align-items: center; }
 .art-box { align-self: center; padding: 1rem; }

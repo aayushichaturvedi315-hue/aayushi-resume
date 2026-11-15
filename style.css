@@ -421,3 +421,11 @@ footer {
 .art-box { align-self: center; padding: 1rem; }
 .art-box img { height: 200px; }
 .art-box figcaption { font-size: 0.9rem; padding-bottom: 0; }
+
+
+/* green sections now match the banner blue */
+#resume, #contact { background: #1d3541; }
+
+/* the boxes inside get a slightly darker shade of the same blue */
+.contact-me, .languages, .hobbies { background: rgba(0, 0, 0, 0.25); }
+.art-box { background: rgba(0, 0, 0, 0.3); }

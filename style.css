@@ -446,3 +446,38 @@ footer {
   background: #162831 !important;
   color: #f4ebd6;
 }
+
+
+/* Languages with level bars, in the site's blue and yellow */
+.lang-panel { margin-top: 2.5rem; }
+
+.lang-bars { display: grid; gap: 1.1rem; max-width: 34rem; }
+
+.lang-bars li {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lang-name strong { display: block; font-weight: 600; line-height: 1.2; }
+.lang-name small { font-size: 0.95rem; opacity: 0.8; }
+
+.bar {
+  display: block;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--mustard, #e9a82b);
+}
+
+.fill.native   { width: 100%; }
+.fill.fluent   { width: 90%; }
+.fill.beginner { width: 25%; }

@@ -429,3 +429,20 @@ footer {
 /* the boxes inside get a slightly darker shade of the same blue */
 .contact-me, .languages, .hobbies { background: rgba(0, 0, 0, 0.25); }
 .art-box { background: rgba(0, 0, 0, 0.3); }
+
+/* Last section: white background, Hobbies above Contact, no Languages */
+#contact {
+  background: #ffffff !important;
+  background-image: none !important;
+  grid-template-columns: 1fr !important;
+}
+
+.languages { display: none !important; }
+
+.hobbies { order: -1; }
+
+/* blocks keep the same dark blue as before (solid, so they stay dark on white) */
+.contact-me, .hobbies {
+  background: #162831 !important;
+  color: #f4ebd6;
+}

@@ -85,7 +85,7 @@ a:focus-visible { outline: 3px solid var(--mustard); outline-offset: 3px; }
 
 .art-box img {
   display: block;
-  width: 100%;
+  width: 50%;
   height: 340px;
   object-fit: cover;
   object-position:  70% 55%;
